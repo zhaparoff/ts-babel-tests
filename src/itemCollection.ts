@@ -1,3 +1,5 @@
+// forEach() is called for array
+
 import { IterativeDelegate } from "./IterativeDelegate";
 
 export interface IItemCollection<T> {

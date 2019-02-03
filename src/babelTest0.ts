@@ -1,3 +1,5 @@
+// No forEach() call
+
 import { IItemCollection } from "./itemCollection";
 
 export function logCollection<T>(collection: IItemCollection<T>): void {

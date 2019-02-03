@@ -1,3 +1,5 @@
+// forEach() is called for class
+
 import { ItemCollection } from "./itemCollection";
 
 export function logCollection<T>(collection: ItemCollection<T>): void {

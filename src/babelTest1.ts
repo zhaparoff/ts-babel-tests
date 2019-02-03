@@ -1,3 +1,5 @@
+// forEach() is called for interface
+
 import { IItemCollection } from "./itemCollection";
 
 export function logCollection<T>(collection: IItemCollection<T>): void {

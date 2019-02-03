@@ -2,6 +2,7 @@ import "core-js/modules/web.dom.iterable";
 import _classCallCheck from "@babel/runtime-corejs2/helpers/esm/classCallCheck";
 import _createClass from "@babel/runtime-corejs2/helpers/esm/createClass";
 import _defineProperty from "@babel/runtime-corejs2/helpers/esm/defineProperty";
+// forEach() is called for array
 export var ItemCollection =
 /*#__PURE__*/
 function () {
