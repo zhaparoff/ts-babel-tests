@@ -1,4 +1,4 @@
-// forEach() is called for class
+// TS: custom forEach() is called from class
 
 import { ItemCollection } from "./itemCollection";
 

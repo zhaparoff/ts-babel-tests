@@ -1,4 +1,4 @@
-// forEach() is called for interface
+// TS: Custom forEach() is called from interface
 
 import { IItemCollection } from "./itemCollection";
 

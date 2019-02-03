@@ -1,4 +1,4 @@
-// No forEach() call
+// TS: No forEach() call
 
 import { IItemCollection } from "./itemCollection";
 

@@ -1,4 +1,4 @@
-// forEach() is called for array
+// TS: Array.prototype.forEach() is called for array
 
 import { IterativeDelegate } from "./IterativeDelegate";
 
