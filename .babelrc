@@ -7,9 +7,9 @@
                 "modules": false,
                 "useBuiltIns": "usage",
                 "targets": {
-                    "ie": "11",
-                    "edge": "20",
-                    "chrome": "60"
+                    "ie": "11"
+                    // "edge": "20",
+                    // "chrome": "60"
                 }
             }
         ],
