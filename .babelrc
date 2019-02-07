@@ -10,7 +10,10 @@
                     "ie": "11",
                     "edge": "17",
                     "chrome": "70"
-                }
+                },
+                "exclude": [
+                    "web.dom.iterable"
+                ]
             }
         ],
         "@babel/preset-typescript"

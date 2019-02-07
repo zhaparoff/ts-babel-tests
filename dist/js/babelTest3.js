@@ -1,5 +1,3 @@
-import "core-js/modules/web.dom.iterable";
-
 // @ts-nocheck
 // JS: Array.prototype.forEach() is called for the same scope array
 function logCollectionInternal(array) {
