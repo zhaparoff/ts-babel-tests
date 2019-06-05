@@ -1,9 +1,24 @@
+import _classCallCheck from "@babel/runtime-corejs2/helpers/esm/classCallCheck";
+import _createClass from "@babel/runtime-corejs2/helpers/esm/createClass";
+import _defineProperty from "@babel/runtime-corejs2/helpers/esm/defineProperty";
 // TS: Array.prototype.forEach() is called for array
-export class ItemCollection {
-  storage = [];
+export var ItemCollection =
+/*#__PURE__*/
+function () {
+  function ItemCollection() {
+    _classCallCheck(this, ItemCollection);
 
-  forEach(delegate) {
-    this.storage.forEach(item => delegate(item));
+    _defineProperty(this, "storage", []);
   }
 
-}
+  _createClass(ItemCollection, [{
+    key: "forEach",
+    value: function forEach(delegate) {
+      this.storage.forEach(function (item) {
+        return delegate(item);
+      });
+    }
+  }]);
+
+  return ItemCollection;
+}();

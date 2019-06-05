@@ -4,5 +4,7 @@ export function logCollection(collection) {
     throw new Error("Collection is required.");
   }
 
-  collection.forEach(i => console.log(i));
+  collection.forEach(function (i) {
+    return console.log(i);
+  });
 }
