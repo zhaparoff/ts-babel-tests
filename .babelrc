@@ -5,15 +5,13 @@
             {
                 "debug": true,
                 "modules": false,
-                "useBuiltIns": "usage",
+                "useBuiltIns": false,
+                "corejs": "3.1.3",
                 "targets": {
                     "ie": "11",
                     "edge": "17",
                     "chrome": "70"
-                },
-                "exclude": [
-                    "web.dom.iterable"
-                ]
+                }
             }
         ],
         "@babel/preset-typescript"
@@ -24,10 +22,10 @@
         [
             "@babel/plugin-transform-runtime",
             {
-                "corejs": 2,
-                "helpers": true,
-                "regenerator": true,
-                "useESModules": true
+                "corejs": false,
+                "helpers": false,
+                "regenerator": false,
+                "useESModules": false
             }
         ]
     ]

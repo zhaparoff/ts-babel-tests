@@ -8,22 +8,22 @@
     "private": true,
     "sideEffects": false,
     "scripts": {
-        "lint": "tslint 'src/**/*.ts'",
         "check": "tsc",
+        "lint": "tslint 'src/**/*.ts'",
         "build": "babel src -d dist -x .ts,.js"
     },
     "dependencies": {
-        "@babel/runtime-corejs2": "^7.4.5"
+        "@babel/runtime-corejs3": "^7.5.5"
     },
     "devDependencies": {
-        "@babel/cli": "^7.4.4",
-        "@babel/core": "^7.4.5",
-        "@babel/plugin-proposal-class-properties": "^7.4.4",
-        "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
-        "@babel/plugin-transform-runtime": "^7.4.4",
-        "@babel/preset-env": "^7.4.5",
+        "@babel/cli": "^7.5.5",
+        "@babel/core": "^7.5.5",
+        "@babel/plugin-proposal-class-properties": "^7.5.5",
+        "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+        "@babel/plugin-transform-runtime": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
         "@babel/preset-typescript": "^7.3.3",
-        "tslint": "^5.17.0",
-        "typescript": "^3.5.1"
+        "tslint": "^5.18.0",
+        "typescript": "^3.5.3"
     }
 }
